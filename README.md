@@ -1,6 +1,12 @@
-# react-template
+# react-performance-fruits
 
-Template to Start a React Application with minimal configuration using Webpack and Babel.
+Implement a feature to allow item selection with the following requirements:
+
+- Clicking an item selects/unselects it.
+- Multiple items can be selected at a time.
+- Make sure to AVOID UNNECESSARY RE-RENDERS (performance).
+- Currently selected items should be visually highlighted.
+- Currently selected items' names should be shown at the top of the page.
 
 ## Dependencies
 
@@ -20,8 +26,8 @@ Template to Start a React Application with minimal configuration using Webpack a
   <script src="[bundle_name].js"></script>` at our index.html file inside the app folder.
 - babel-loader: This package allows transpiling JavaScript files using Babel and webpack, its totally required since we will want to transpile JSX from Javascript Files for development with React.js.
 
-
 ## Instalation
+
 - Install it quickly using degit:
 
 `degit github:opauloh/react-template react-calculator`
